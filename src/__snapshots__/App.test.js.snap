@@ -1,0 +1,23 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`renders learn react link 1`] = `
+<WithStyles(ForwardRef(Grid))
+  container={true}
+  spacing={2}
+>
+  <WithStyles(ForwardRef(Grid))
+    item={true}
+    sm={4}
+    xs={12}
+  >
+    <SimpleMenu />
+  </WithStyles(ForwardRef(Grid))>
+  <WithStyles(ForwardRef(Grid))
+    item={true}
+    sm={8}
+    xs={12}
+  >
+    <Routing />
+  </WithStyles(ForwardRef(Grid))>
+</WithStyles(ForwardRef(Grid))>
+`;

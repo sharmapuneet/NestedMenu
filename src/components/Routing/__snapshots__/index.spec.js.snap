@@ -1,0 +1,21 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Routing should render correctly 1`] = `
+<Switch>
+  <Route
+    component={[Function]}
+    exact={true}
+    path="/form"
+  />
+  <Route
+    component={[Function]}
+    exact={true}
+    path="/item"
+  />
+  <Route
+    component={[Function]}
+    exact={true}
+    path="/"
+  />
+</Switch>
+`;

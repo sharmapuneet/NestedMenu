@@ -1,0 +1,9 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Message should render correctly 1`] = `
+<WithStyles(ForwardRef(Typography))
+  variant="h1"
+>
+  This menu item has not been enabled yet.
+</WithStyles(ForwardRef(Typography))>
+`;

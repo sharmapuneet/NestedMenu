@@ -1,0 +1,76 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Form should render correctly 1`] = `
+<form
+  autoComplete="off"
+  id="simple-form"
+  noValidate={true}
+>
+  <WithStyles(ForwardRef(Grid))
+    container={true}
+    spacing={2}
+  >
+    <WithStyles(ForwardRef(Grid))
+      item={true}
+      sm={6}
+      xs={12}
+    >
+      <WithStyles(ForwardRef(TextField))
+        fullWidth={true}
+        id="fname"
+        label="First Name"
+        onChange={[Function]}
+        value=""
+        variant="outlined"
+      />
+    </WithStyles(ForwardRef(Grid))>
+    <WithStyles(ForwardRef(Grid))
+      item={true}
+      sm={6}
+      xs={12}
+    >
+      <WithStyles(ForwardRef(TextField))
+        fullWidth={true}
+        id="lname"
+        label="Last Name"
+        onChange={[Function]}
+        value=""
+        variant="outlined"
+      />
+    </WithStyles(ForwardRef(Grid))>
+  </WithStyles(ForwardRef(Grid))>
+  <WithStyles(ForwardRef(Grid))
+    container={true}
+    spacing={2}
+  >
+    <WithStyles(ForwardRef(Grid))
+      item={true}
+      sm={6}
+      xs={12}
+    >
+      <WithStyles(ForwardRef(Button))
+        color="primary"
+        fullWidth={true}
+        onClick={[Function]}
+        variant="contained"
+      >
+        Submit
+      </WithStyles(ForwardRef(Button))>
+    </WithStyles(ForwardRef(Grid))>
+    <WithStyles(ForwardRef(Grid))
+      item={true}
+      sm={6}
+      xs={12}
+    >
+      <WithStyles(ForwardRef(Button))
+        color="secondary"
+        fullWidth={true}
+        href="#/"
+        variant="contained"
+      >
+        Cancel
+      </WithStyles(ForwardRef(Button))>
+    </WithStyles(ForwardRef(Grid))>
+  </WithStyles(ForwardRef(Grid))>
+</form>
+`;

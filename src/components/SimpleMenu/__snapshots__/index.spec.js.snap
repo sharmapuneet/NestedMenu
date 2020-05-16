@@ -1,0 +1,400 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`SimpleMenu should render correctly 1`] = `
+<div
+  className="makeStyles-list-1"
+>
+  <WithStyles(ForwardRef(Drawer))
+    anchor="left"
+    classes={
+      Object {
+        "paper": "makeStyles-list-1",
+      }
+    }
+    open={true}
+    variant="persistent"
+  >
+    <div>
+      <WithStyles(ForwardRef(List))>
+        <WithStyles(ForwardRef(ListItem))
+          disableGutters={true}
+          divider={true}
+          key="menuHeading"
+        >
+          <WithStyles(ForwardRef(ListItemText))
+            className="makeStyles-menuHeader-3"
+            inset={true}
+            primary="Nested Menu"
+          />
+        </WithStyles(ForwardRef(ListItem))>
+        <div
+          key="Item1"
+        >
+          <WithStyles(ForwardRef(ListItem))
+            button={true}
+            key="Item1"
+          >
+            <Link
+              className="makeStyles-links-2"
+              to="/item"
+            >
+              <WithStyles(ForwardRef(ListItemText))
+                inset={true}
+                primary="Item1"
+              />
+            </Link>
+          </WithStyles(ForwardRef(ListItem))>
+        </div>
+        <div
+          key="Item2"
+        >
+          <WithStyles(ForwardRef(ListItem))
+            button={true}
+            key="Item2"
+          >
+            <Link
+              className="makeStyles-links-2"
+              to="/item"
+            >
+              <WithStyles(ForwardRef(ListItemText))
+                inset={true}
+                primary="Item2"
+              />
+            </Link>
+          </WithStyles(ForwardRef(ListItem))>
+        </div>
+        <div
+          key="Item3"
+        >
+          <WithStyles(ForwardRef(ListItem))
+            button={true}
+            onClick={[Function]}
+          >
+            <WithStyles(ForwardRef(ListItemText))
+              inset={true}
+              primary="Item3"
+            />
+            <ExpandMoreIcon />
+          </WithStyles(ForwardRef(ListItem))>
+          <WithStyles(ForwardRef(Collapse))
+            timeout="auto"
+            unmountOnExit={true}
+          >
+            <div
+              key="Item3 - Child1"
+            >
+              <WithStyles(ForwardRef(ListItem))
+                button={true}
+                key="Item3 - Child1"
+              >
+                <Link
+                  className="makeStyles-links-2"
+                  to="/form"
+                >
+                  <WithStyles(ForwardRef(ListItemText))
+                    inset={true}
+                    primary="Item3 - Child1"
+                  />
+                </Link>
+              </WithStyles(ForwardRef(ListItem))>
+            </div>
+            <div
+              key="Item3 - Child2"
+            >
+              <WithStyles(ForwardRef(ListItem))
+                button={true}
+                key="Item3 - Child2"
+              >
+                <Link
+                  className="makeStyles-links-2"
+                  to="/item"
+                >
+                  <WithStyles(ForwardRef(ListItemText))
+                    inset={true}
+                    primary="Item3 - Child2"
+                  />
+                </Link>
+              </WithStyles(ForwardRef(ListItem))>
+            </div>
+            <div
+              key="Item3 - Child3"
+            >
+              <WithStyles(ForwardRef(ListItem))
+                button={true}
+                key="Item3 - Child3"
+              >
+                <Link
+                  className="makeStyles-links-2"
+                  to="/form"
+                >
+                  <WithStyles(ForwardRef(ListItemText))
+                    inset={true}
+                    primary="Item3 - Child3"
+                  />
+                </Link>
+              </WithStyles(ForwardRef(ListItem))>
+            </div>
+          </WithStyles(ForwardRef(Collapse))>
+        </div>
+        <div
+          key="Item4"
+        >
+          <WithStyles(ForwardRef(ListItem))
+            button={true}
+            onClick={[Function]}
+          >
+            <WithStyles(ForwardRef(ListItemText))
+              inset={true}
+              primary="Item4"
+            />
+            <ExpandMoreIcon />
+          </WithStyles(ForwardRef(ListItem))>
+          <WithStyles(ForwardRef(Collapse))
+            timeout="auto"
+            unmountOnExit={true}
+          >
+            <div
+              key="Item4 - Child1"
+            >
+              <WithStyles(ForwardRef(ListItem))
+                button={true}
+                key="Item4 - Child1"
+              >
+                <Link
+                  className="makeStyles-links-2"
+                  to="/form"
+                >
+                  <WithStyles(ForwardRef(ListItemText))
+                    inset={true}
+                    primary="Item4 - Child1"
+                  />
+                </Link>
+              </WithStyles(ForwardRef(ListItem))>
+            </div>
+            <div
+              key="Item4 - Child2"
+            >
+              <WithStyles(ForwardRef(ListItem))
+                button={true}
+                key="Item4 - Child2"
+              >
+                <Link
+                  className="makeStyles-links-2"
+                  to="/item"
+                >
+                  <WithStyles(ForwardRef(ListItemText))
+                    inset={true}
+                    primary="Item4 - Child2"
+                  />
+                </Link>
+              </WithStyles(ForwardRef(ListItem))>
+            </div>
+            <div
+              key="Item4 - Child2 - SubChild1"
+            >
+              <WithStyles(ForwardRef(ListItem))
+                button={true}
+                onClick={[Function]}
+              >
+                <WithStyles(ForwardRef(ListItemText))
+                  inset={true}
+                  primary="Item4 - Child2 - SubChild1"
+                />
+                <ExpandMoreIcon />
+              </WithStyles(ForwardRef(ListItem))>
+              <WithStyles(ForwardRef(Collapse))
+                timeout="auto"
+                unmountOnExit={true}
+              >
+                <div
+                  key="Item4 - Child2 - SubSubChild1"
+                >
+                  <WithStyles(ForwardRef(ListItem))
+                    button={true}
+                    key="Item4 - Child2 - SubSubChild1"
+                  >
+                    <Link
+                      className="makeStyles-links-2"
+                      to="/form"
+                    >
+                      <WithStyles(ForwardRef(ListItemText))
+                        inset={true}
+                        primary="Item4 - Child2 - SubSubChild1"
+                      />
+                    </Link>
+                  </WithStyles(ForwardRef(ListItem))>
+                </div>
+                <div
+                  key="Item4 - Child2 - SubSubChild2"
+                >
+                  <WithStyles(ForwardRef(ListItem))
+                    button={true}
+                    key="Item4 - Child2 - SubSubChild2"
+                  >
+                    <Link
+                      className="makeStyles-links-2"
+                      to="/item"
+                    >
+                      <WithStyles(ForwardRef(ListItemText))
+                        inset={true}
+                        primary="Item4 - Child2 - SubSubChild2"
+                      />
+                    </Link>
+                  </WithStyles(ForwardRef(ListItem))>
+                </div>
+                <div
+                  key="Item4 - Child2 - SubSubChild3"
+                >
+                  <WithStyles(ForwardRef(ListItem))
+                    button={true}
+                    onClick={[Function]}
+                  >
+                    <WithStyles(ForwardRef(ListItemText))
+                      inset={true}
+                      primary="Item4 - Child2 - SubSubChild3"
+                    />
+                    <ExpandMoreIcon />
+                  </WithStyles(ForwardRef(ListItem))>
+                  <WithStyles(ForwardRef(Collapse))
+                    timeout="auto"
+                    unmountOnExit={true}
+                  >
+                    <div
+                      key="Item4 - Child2 - SubSubChild3 - 1"
+                    >
+                      <WithStyles(ForwardRef(ListItem))
+                        button={true}
+                        key="Item4 - Child2 - SubSubChild3 - 1"
+                      >
+                        <Link
+                          className="makeStyles-links-2"
+                          to="/form"
+                        >
+                          <WithStyles(ForwardRef(ListItemText))
+                            inset={true}
+                            primary="Item4 - Child2 - SubSubChild3 - 1"
+                          />
+                        </Link>
+                      </WithStyles(ForwardRef(ListItem))>
+                    </div>
+                  </WithStyles(ForwardRef(Collapse))>
+                </div>
+              </WithStyles(ForwardRef(Collapse))>
+            </div>
+          </WithStyles(ForwardRef(Collapse))>
+        </div>
+        <div
+          key="Item5"
+        >
+          <WithStyles(ForwardRef(ListItem))
+            button={true}
+            onClick={[Function]}
+          >
+            <WithStyles(ForwardRef(ListItemText))
+              inset={true}
+              primary="Item5"
+            />
+            <ExpandMoreIcon />
+          </WithStyles(ForwardRef(ListItem))>
+          <WithStyles(ForwardRef(Collapse))
+            timeout="auto"
+            unmountOnExit={true}
+          >
+            <div
+              key="Item5 - Child1"
+            >
+              <WithStyles(ForwardRef(ListItem))
+                button={true}
+                key="Item5 - Child1"
+              >
+                <Link
+                  className="makeStyles-links-2"
+                  to="/form"
+                >
+                  <WithStyles(ForwardRef(ListItemText))
+                    inset={true}
+                    primary="Item5 - Child1"
+                  />
+                </Link>
+              </WithStyles(ForwardRef(ListItem))>
+            </div>
+            <div
+              key="Item5 - Child2"
+            >
+              <WithStyles(ForwardRef(ListItem))
+                button={true}
+                key="Item5 - Child2"
+              >
+                <Link
+                  className="makeStyles-links-2"
+                  to="/item"
+                >
+                  <WithStyles(ForwardRef(ListItemText))
+                    inset={true}
+                    primary="Item5 - Child2"
+                  />
+                </Link>
+              </WithStyles(ForwardRef(ListItem))>
+            </div>
+          </WithStyles(ForwardRef(Collapse))>
+        </div>
+        <div
+          key="Item6"
+        >
+          <WithStyles(ForwardRef(ListItem))
+            button={true}
+            onClick={[Function]}
+          >
+            <WithStyles(ForwardRef(ListItemText))
+              inset={true}
+              primary="Item6"
+            />
+            <ExpandMoreIcon />
+          </WithStyles(ForwardRef(ListItem))>
+          <WithStyles(ForwardRef(Collapse))
+            timeout="auto"
+            unmountOnExit={true}
+          >
+            <div
+              key="Item6 - Child1"
+            >
+              <WithStyles(ForwardRef(ListItem))
+                button={true}
+                key="Item6 - Child1"
+              >
+                <Link
+                  className="makeStyles-links-2"
+                  to="/form"
+                >
+                  <WithStyles(ForwardRef(ListItemText))
+                    inset={true}
+                    primary="Item6 - Child1"
+                  />
+                </Link>
+              </WithStyles(ForwardRef(ListItem))>
+            </div>
+            <div
+              key="Item6 - Child2"
+            >
+              <WithStyles(ForwardRef(ListItem))
+                button={true}
+                key="Item6 - Child2"
+              >
+                <Link
+                  className="makeStyles-links-2"
+                  to="/form"
+                >
+                  <WithStyles(ForwardRef(ListItemText))
+                    inset={true}
+                    primary="Item6 - Child2"
+                  />
+                </Link>
+              </WithStyles(ForwardRef(ListItem))>
+            </div>
+          </WithStyles(ForwardRef(Collapse))>
+        </div>
+      </WithStyles(ForwardRef(List))>
+    </div>
+  </WithStyles(ForwardRef(Drawer))>
+</div>
+`;

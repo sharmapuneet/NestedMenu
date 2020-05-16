@@ -1,0 +1,9 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Welcome should render correctly 1`] = `
+<WithStyles(ForwardRef(Typography))
+  variant="h1"
+>
+  Welcome to Afterpay Nested Menu Code Test.
+</WithStyles(ForwardRef(Typography))>
+`;
