@@ -12,7 +12,7 @@ This project is made for Afterpay nested menu test code.
 ```
 NOTE - The form submission data is being passed to the endpoint but you can't see it as of CORS issue. You can see it working if you run `npm start` form the root directory. You need to inspect the browser using browser dev tools and in the network tab you'll see failed api. Click on that and check the form data at the bottom.
 
-Also if you want to change the data.js file to add or delete menu items you need to run `npm run build` and then change the `main.*.chunk.js` file to the new file.
+Also if you want to change the data.js file to add or delete menu items you need to run `npm run build` and then change the `main.*.chunk.js` file in `index.html` file to the new file.
 ```
 
 ### Form Component
