@@ -9,6 +9,12 @@ This project is made for Afterpay nested menu test code.
 - I am using material-ui for UI implementation of components.
 - I have made a minified production build of this app and used it in the html file passing through the `<script>` tag.
 
+```
+NOTE - The form submission data is being passed to the endpoint but you can't see it as of CORS issue. You can see it working if you run `npm start` form the root directory. You need to inspect the browser using browser dev tools and in the network tab you'll see failed api. Click on that and check the form data at the bottom.
+
+Also if you want to change the data.js file to add or delete menu items you need to run `npm run build` and then change the `main.*.chunk.js` file to the new file.
+```
+
 ### Form Component
 
 The form component has two text fields for first name and last name and two buttons to submit the form and to cancel the form.

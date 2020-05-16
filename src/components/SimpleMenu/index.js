@@ -12,7 +12,7 @@ import menuItems from '../../data'
 
 const useStyles = makeStyles({
   list: {
-    width: 250,
+    width: '33.33%',
   },
   links: {
     textDecoration:'none',
