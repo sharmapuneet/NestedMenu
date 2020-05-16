@@ -1,4 +1,4 @@
-This project is made for Afterpay nested menu test code.
+This project is made for nested menu.
 
 ## Project Architecture
 
