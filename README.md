@@ -33,7 +33,7 @@ This is a simple text component to show welcome message on home screen.
 
 For testing I am using Jest and Enzyme. For this you need to locally install npm - https://www.npmjs.com/get-npm
 
-- Clone the afterpay-test from -
+- Clone the afterpay-test from - https://github.com/sharmapuneet/NestedMenu
 - Go to afterpay-test directory in your machine.
 - run the command `npm install`
 - After running above command run `npm test -- --u`
