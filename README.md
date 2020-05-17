@@ -1,21 +1,14 @@
 This project is made for Nested menu.
 
-`To run the project go to build folder and open index.html in browser.`
+1. To run the project go to build folder and open index.html in browser.
+2. The data.json file contains the json data for menu items with deep nesting. Its located here `src/data.json`
+3. If you want to change the data.json file to add or delete menu items you need to run `npm run build`.
 
 ## Project Architecture
 
-- This project is using React javascript library.
-- This app is using latest version of react and also react hooks are used.
+- This project is using React javascript library (version 16.13.1) with react hooks.
+- material-ui library for UI implementation of components.
 - There are five components used in this app : Form, Message, Routing, SimpleMenu, Welcome.
-- The data.json file contains the json data for menu items with deep nesting. Its located here `src/data.json`
-- I am using material-ui for UI implementation of components.
-- I have made a minified production build of this app and used it in the html file passing through the `<script>` tag.
-
-```
-NOTE - The form submission data is being passed to the endpoint but you can't see it as of CORS issue. You can see it working if you run `npm start` form the root directory. You need to inspect the browser using browser dev tools and in the network tab you'll see failed api. Click on that and check the form data at the bottom.
-
-Also if you want to change the data.json file to add or delete menu items you need to run `npm run build`.
-```
 
 ### Form Component
 
@@ -37,6 +30,9 @@ This component is consuming the json data from the data.json file to create menu
 
 This is a simple text component to show welcome message on home screen.
 
+### Testing Server endpoint
+The form submission data is being passed to the endpoint but you can't see it as of CORS issue. You can see it working if you run `npm start` form the root directory. You need to inspect the browser using browser dev tools and in the network tab you'll see failed api. Click on that and check the form data at the bottom.
+
 ### Testing
 
 For testing I am using Jest and Enzyme. For this you need to locally install npm - https://www.npmjs.com/get-npm
@@ -53,7 +49,7 @@ For testing I am using Jest and Enzyme. For this you need to locally install npm
     ```
 - If you want to test more things you can write test cases in the index.spec.js files for each component. For example for Form component you can find the test file here src/components/Form/index.spec.js
 
-## Available Scripts
+## Available Scripts to run on server
 
 In the project directory, you can run:
 
