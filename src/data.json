@@ -1,10 +1,4 @@
-// The data has 6 Top most Menu items. 
-// The first two items will show the message that menu items are not implemented yet.
-// Third menu item has 3 children with 2 items has form and 1 has a message.
-// Fourth menu item has deep nesting of menu items and has forms and message links in them.
-// Same for fifth and sixth menu items.
-
-export default {
+{
   "data" : [
     {
       "name": "Item1",
@@ -59,7 +53,7 @@ export default {
                 {
                   "name": "Item4 - Child2 - SubSubChild3 - 1",
                   "url": "/form"
-                },
+                }
               ]
             }
           ]
@@ -76,7 +70,7 @@ export default {
         {
           "name": "Item5 - Child2",
           "url": "/item"
-        },
+        }
       ]
     },
     {
@@ -89,7 +83,7 @@ export default {
         {
           "name": "Item6 - Child2",
           "url": "/form"
-        },
+        }
       ]
     }
   ]
