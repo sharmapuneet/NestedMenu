@@ -31,7 +31,7 @@ This component is made to show different components on different links.
 
 ### SimpleMenu Component
 
-This component is consuming the json data from the data.js file to create menu.
+This component is consuming the json data from the data.js file to create menu. Menu items with /form link will show form and with /item link will show message.
 
 ### Welcome Component
 
