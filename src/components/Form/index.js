@@ -31,7 +31,6 @@ const Form = () => {
 
     setFirstName('')
     setLastName('')
-    window.location.href = '#/'
     alert(`Form has been successfully submitted with First Name: ${firstName} and Last Name: ${lastName} :)`)
   }
 

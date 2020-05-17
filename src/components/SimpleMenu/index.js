@@ -36,7 +36,6 @@ function SubMenu(children) {
     setMenu(prevMenu => (
       {[item]: !prevMenu[item]}
     ))
-    setSelected(item)
   }
 
   const updateSelected = selectedIndex => {
@@ -50,7 +49,10 @@ function SubMenu(children) {
           button 
           key={subOption.name}
           selected={selected === subOption.name}
-          onClick={() => updateSelected(subOption.name)}
+          onClick={() => {
+            handleClick(subOption.name)
+            updateSelected(subOption.name)
+          }}
         >
           <Link 
             to={subOption.url}
@@ -65,7 +67,10 @@ function SubMenu(children) {
       <div key={subOption.name}>
         <ListItem
           button 
-          onClick={() => handleClick(subOption.name)}
+          onClick={() => {
+            handleClick(subOption.name)
+            updateSelected(subOption.name)
+          }}
           selected={selected === subOption.name}
         >
           <ListItemText

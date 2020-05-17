@@ -1,10 +1,10 @@
 import React from 'react'
 import ReactDOM from 'react-dom'
 import App from './App'
-import { HashRouter } from 'react-router-dom'
+import { MemoryRouter } from 'react-router-dom'
 
 ReactDOM.render((
-  <HashRouter>
+  <MemoryRouter>
     <App />
-  </HashRouter> 
+  </MemoryRouter> 
 ),document.getElementById('root'))
