@@ -19,8 +19,8 @@ const Form = () => {
     event.preventDefault()
     const data = new FormData(document.getElementById('simple-form'))
 
-    data.set('fName', firstName);
-    data.set('lName', lastName);
+    data.set('fName', firstName)
+    data.set('lName', lastName)
 
     const settings = {
       method: 'POST',

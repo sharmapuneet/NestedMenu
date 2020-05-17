@@ -1,9 +1,16 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
 exports[`Welcome should render correctly 1`] = `
-<WithStyles(ForwardRef(Typography))
-  variant="h1"
->
-  Welcome to Afterpay Nested Menu Code Test.
-</WithStyles(ForwardRef(Typography))>
+<Fragment>
+  <WithStyles(ForwardRef(Typography))
+    variant="h4"
+  >
+    Welcome to Nested Menu.
+  </WithStyles(ForwardRef(Typography))>
+  <WithStyles(ForwardRef(Typography))
+    variant="subtitle1"
+  >
+    This project is made to show how we can make Nested menu with unlimited nested menu items.
+  </WithStyles(ForwardRef(Typography))>
+</Fragment>
 `;

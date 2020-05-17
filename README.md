@@ -7,14 +7,14 @@ This project is made for Nested menu.
 - This project is using React javascript library.
 - This app is using latest version of react and also react hooks are used.
 - There are five components used in this app : Form, Message, Routing, SimpleMenu, Welcome.
-- The data.js file contains the json data for menu items with deep nesting.
+- The data.json file contains the json data for menu items with deep nesting. Its located here `src/data.json`
 - I am using material-ui for UI implementation of components.
 - I have made a minified production build of this app and used it in the html file passing through the `<script>` tag.
 
 ```
 NOTE - The form submission data is being passed to the endpoint but you can't see it as of CORS issue. You can see it working if you run `npm start` form the root directory. You need to inspect the browser using browser dev tools and in the network tab you'll see failed api. Click on that and check the form data at the bottom.
 
-Also if you want to change the data.js file to add or delete menu items you need to run `npm run build`.
+Also if you want to change the data.json file to add or delete menu items you need to run `npm run build`.
 ```
 
 ### Form Component
@@ -31,7 +31,7 @@ This component is made to show different components on different links.
 
 ### SimpleMenu Component
 
-This component is consuming the json data from the data.js file to create menu. Menu items with /form link will show form and with /item link will show message.
+This component is consuming the json data from the data.json file to create menu. Menu items with /form link will show form and with /item link will show message.
 
 ### Welcome Component
 
@@ -41,10 +41,10 @@ This is a simple text component to show welcome message on home screen.
 
 For testing I am using Jest and Enzyme. For this you need to locally install npm - https://www.npmjs.com/get-npm
 
-- Clone the afterpay-test from - https://github.com/sharmapuneet/NestedMenu
-- Go to afterpay-test directory in your machine.
+- Clone the NestedMenu from - https://github.com/sharmapuneet/NestedMenu
+- Go to NestedMenu directory in your machine.
 - run the command `npm install`
-- After running above command run `npm test -- --u`
+- After running above command run `npm test` and to run all tests type a when propted.
 - The above command will run and will show you if the tests are passed. It will show 
     ```
     Test Suites: 6 passed, 6 total

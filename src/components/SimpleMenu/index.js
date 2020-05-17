@@ -28,46 +28,47 @@ function SubMenu(children) {
   const classes = useStyles()
   const [state, setState] = useState({})
 
-  const handleClick = (item) => {
-    setState( prevState => ( 
-      { [ item ]: !prevState[ item ] } 
-    ) )
+  const handleClick = item => {
+    setState(prevState => ( 
+      {[item]: !prevState[item]} 
+    ))
   }
 
   return children.map(subOption => (
     !subOption.children ?
-      <div key={ subOption.name }>
+      <div key={subOption.name}>
         <ListItem 
           button 
-          key={ subOption.name }>
+          key={subOption.name}>
           <Link 
             to={ subOption.url }
-            className={ classes.links }>
+            className={classes.links}>
             <ListItemText 
               inset 
-              primary={ subOption.name } 
+              primary={subOption.name} 
             />
           </Link>
         </ListItem>
       </div> :
-      <div key={ subOption.name }>
+      <div key={subOption.name}>
         <ListItem 
           button 
-          onClick={ () => handleClick( subOption.name ) }>
+          onClick={() => handleClick(subOption.name)}>
           <ListItemText 
             inset 
-            primary={ subOption.name } />
-          { state[ subOption.name ] ? 
+            primary={subOption.name}
+          />
+          {state[subOption.name] ? 
             <ExpandLess /> :
             <ExpandMore />
           }
         </ListItem>
         <Collapse 
-          in={ state[ subOption.name ] } 
+          in={state[subOption.name]} 
           timeout="auto" 
           unmountOnExit
         >
-          { SubMenu( subOption.children ) }
+          {SubMenu(subOption.children)}
         </Collapse>
       </div>
   ))
@@ -82,7 +83,7 @@ const SimpleMenu = () => {
         variant="persistent" 
         anchor="left"
         open
-        classes={ { paper: classes.list } }>
+        classes={{ paper: classes.list }}>
         <div>
           <List>
             <ListItem 
@@ -91,12 +92,12 @@ const SimpleMenu = () => {
               disableGutters
             >
               <ListItemText
-              className={ classes.menuHeader }
+              className={classes.menuHeader}
                 inset
                 primary="Nested Menu"
               />
             </ListItem>
-          { SubMenu( menuItems.data ) }
+            {SubMenu(menuItems.data)}
           </List>
         </div>
       </Drawer>

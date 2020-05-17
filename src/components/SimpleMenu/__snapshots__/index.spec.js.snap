@@ -28,6 +28,24 @@ exports[`SimpleMenu should render correctly 1`] = `
           />
         </WithStyles(ForwardRef(ListItem))>
         <div
+          key="Home"
+        >
+          <WithStyles(ForwardRef(ListItem))
+            button={true}
+            key="Home"
+          >
+            <Link
+              className="makeStyles-links-2"
+              to="/"
+            >
+              <WithStyles(ForwardRef(ListItemText))
+                inset={true}
+                primary="Home"
+              />
+            </Link>
+          </WithStyles(ForwardRef(ListItem))>
+        </div>
+        <div
           key="Item1"
         >
           <WithStyles(ForwardRef(ListItem))
@@ -81,11 +99,11 @@ exports[`SimpleMenu should render correctly 1`] = `
             unmountOnExit={true}
           >
             <div
-              key="Item3 - Child1"
+              key="Item3 - Child1 - Form"
             >
               <WithStyles(ForwardRef(ListItem))
                 button={true}
-                key="Item3 - Child1"
+                key="Item3 - Child1 - Form"
               >
                 <Link
                   className="makeStyles-links-2"
@@ -93,7 +111,7 @@ exports[`SimpleMenu should render correctly 1`] = `
                 >
                   <WithStyles(ForwardRef(ListItemText))
                     inset={true}
-                    primary="Item3 - Child1"
+                    primary="Item3 - Child1 - Form"
                   />
                 </Link>
               </WithStyles(ForwardRef(ListItem))>
@@ -117,11 +135,11 @@ exports[`SimpleMenu should render correctly 1`] = `
               </WithStyles(ForwardRef(ListItem))>
             </div>
             <div
-              key="Item3 - Child3"
+              key="Item3 - Child3 - Form"
             >
               <WithStyles(ForwardRef(ListItem))
                 button={true}
-                key="Item3 - Child3"
+                key="Item3 - Child3 - Form"
               >
                 <Link
                   className="makeStyles-links-2"
@@ -129,7 +147,7 @@ exports[`SimpleMenu should render correctly 1`] = `
                 >
                   <WithStyles(ForwardRef(ListItemText))
                     inset={true}
-                    primary="Item3 - Child3"
+                    primary="Item3 - Child3 - Form"
                   />
                 </Link>
               </WithStyles(ForwardRef(ListItem))>
@@ -154,11 +172,11 @@ exports[`SimpleMenu should render correctly 1`] = `
             unmountOnExit={true}
           >
             <div
-              key="Item4 - Child1"
+              key="Item4 - Child1 - Form"
             >
               <WithStyles(ForwardRef(ListItem))
                 button={true}
-                key="Item4 - Child1"
+                key="Item4 - Child1 - Form"
               >
                 <Link
                   className="makeStyles-links-2"
@@ -166,7 +184,7 @@ exports[`SimpleMenu should render correctly 1`] = `
                 >
                   <WithStyles(ForwardRef(ListItemText))
                     inset={true}
-                    primary="Item4 - Child1"
+                    primary="Item4 - Child1 - Form"
                   />
                 </Link>
               </WithStyles(ForwardRef(ListItem))>
@@ -207,11 +225,11 @@ exports[`SimpleMenu should render correctly 1`] = `
                 unmountOnExit={true}
               >
                 <div
-                  key="Item4 - Child2 - SubSubChild1"
+                  key="Item4 - Child2 - SubSubChild1 - Form"
                 >
                   <WithStyles(ForwardRef(ListItem))
                     button={true}
-                    key="Item4 - Child2 - SubSubChild1"
+                    key="Item4 - Child2 - SubSubChild1 - Form"
                   >
                     <Link
                       className="makeStyles-links-2"
@@ -219,7 +237,7 @@ exports[`SimpleMenu should render correctly 1`] = `
                     >
                       <WithStyles(ForwardRef(ListItemText))
                         inset={true}
-                        primary="Item4 - Child2 - SubSubChild1"
+                        primary="Item4 - Child2 - SubSubChild1 - Form"
                       />
                     </Link>
                   </WithStyles(ForwardRef(ListItem))>
@@ -260,11 +278,11 @@ exports[`SimpleMenu should render correctly 1`] = `
                     unmountOnExit={true}
                   >
                     <div
-                      key="Item4 - Child2 - SubSubChild3 - 1"
+                      key="Item4 - Child2 - SubSubChild3 - 1 - Form"
                     >
                       <WithStyles(ForwardRef(ListItem))
                         button={true}
-                        key="Item4 - Child2 - SubSubChild3 - 1"
+                        key="Item4 - Child2 - SubSubChild3 - 1 - Form"
                       >
                         <Link
                           className="makeStyles-links-2"
@@ -272,7 +290,7 @@ exports[`SimpleMenu should render correctly 1`] = `
                         >
                           <WithStyles(ForwardRef(ListItemText))
                             inset={true}
-                            primary="Item4 - Child2 - SubSubChild3 - 1"
+                            primary="Item4 - Child2 - SubSubChild3 - 1 - Form"
                           />
                         </Link>
                       </WithStyles(ForwardRef(ListItem))>
@@ -301,11 +319,11 @@ exports[`SimpleMenu should render correctly 1`] = `
             unmountOnExit={true}
           >
             <div
-              key="Item5 - Child1"
+              key="Item5 - Child1 - Form"
             >
               <WithStyles(ForwardRef(ListItem))
                 button={true}
-                key="Item5 - Child1"
+                key="Item5 - Child1 - Form"
               >
                 <Link
                   className="makeStyles-links-2"
@@ -313,7 +331,7 @@ exports[`SimpleMenu should render correctly 1`] = `
                 >
                   <WithStyles(ForwardRef(ListItemText))
                     inset={true}
-                    primary="Item5 - Child1"
+                    primary="Item5 - Child1 - Form"
                   />
                 </Link>
               </WithStyles(ForwardRef(ListItem))>
@@ -364,7 +382,7 @@ exports[`SimpleMenu should render correctly 1`] = `
               >
                 <Link
                   className="makeStyles-links-2"
-                  to="/form"
+                  to="/item"
                 >
                   <WithStyles(ForwardRef(ListItemText))
                     inset={true}
@@ -374,11 +392,11 @@ exports[`SimpleMenu should render correctly 1`] = `
               </WithStyles(ForwardRef(ListItem))>
             </div>
             <div
-              key="Item6 - Child2"
+              key="Item6 - Child2 - Form"
             >
               <WithStyles(ForwardRef(ListItem))
                 button={true}
-                key="Item6 - Child2"
+                key="Item6 - Child2 - Form"
               >
                 <Link
                   className="makeStyles-links-2"
@@ -386,7 +404,7 @@ exports[`SimpleMenu should render correctly 1`] = `
                 >
                   <WithStyles(ForwardRef(ListItemText))
                     inset={true}
-                    primary="Item6 - Child2"
+                    primary="Item6 - Child2 - Form"
                   />
                 </Link>
               </WithStyles(ForwardRef(ListItem))>

@@ -2,7 +2,7 @@
 
 exports[`Message should render correctly 1`] = `
 <WithStyles(ForwardRef(Typography))
-  variant="h1"
+  variant="h4"
 >
   This menu item has not been enabled yet.
 </WithStyles(ForwardRef(Typography))>
