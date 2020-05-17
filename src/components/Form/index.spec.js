@@ -1,5 +1,5 @@
 import React from 'react'
-import { shallow, render } from 'enzyme'
+import { mount, shallow, render } from 'enzyme'
 import Form from './index'
 
 describe('Form', () => {

@@ -12,7 +12,7 @@ This project is made for Nested menu.
 
 ### Form Component
 
-The form component has two text fields for first name and last name and two buttons to submit the form and to cancel the form.
+The form component has two text fields for first name and last name and two buttons to submit the form and to cancel the form. Clicking the submit button will send the data to imaginary endpoint and clicking the cancel button will take the user to home screen.
 
 ### Message Component
 

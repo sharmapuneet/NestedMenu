@@ -21,17 +21,26 @@ const useStyles = makeStyles({
   },
   menuHeader: {
     paddingLeft: '30px',
-  }
+  },
+  wrapperInner: {
+    padding: '5px',
+  },
 })
 
 function SubMenu(children) {
   const classes = useStyles()
-  const [state, setState] = useState({})
+  const [menu, setMenu] = useState({})
+  const [selected, setSelected] = useState(false)
 
   const handleClick = item => {
-    setState(prevState => ( 
-      {[item]: !prevState[item]} 
+    setMenu(prevMenu => (
+      {[item]: !prevMenu[item]}
     ))
+    setSelected(item)
+  }
+
+  const updateSelected = selectedIndex => {
+    setSelected(selectedIndex)
   }
 
   return children.map(subOption => (
@@ -39,9 +48,12 @@ function SubMenu(children) {
       <div key={subOption.name}>
         <ListItem 
           button 
-          key={subOption.name}>
+          key={subOption.name}
+          selected={selected === subOption.name}
+          onClick={() => updateSelected(subOption.name)}
+        >
           <Link 
-            to={ subOption.url }
+            to={subOption.url}
             className={classes.links}>
             <ListItemText 
               inset 
@@ -51,22 +63,25 @@ function SubMenu(children) {
         </ListItem>
       </div> :
       <div key={subOption.name}>
-        <ListItem 
+        <ListItem
           button 
-          onClick={() => handleClick(subOption.name)}>
-          <ListItemText 
+          onClick={() => handleClick(subOption.name)}
+          selected={selected === subOption.name}
+        >
+          <ListItemText
             inset 
             primary={subOption.name}
           />
-          {state[subOption.name] ? 
+          {menu[subOption.name] ? 
             <ExpandLess /> :
             <ExpandMore />
           }
         </ListItem>
         <Collapse 
-          in={state[subOption.name]} 
+          in={menu[subOption.name]}
           timeout="auto" 
           unmountOnExit
+          classes={{ wrapperInner: classes.wrapperInner }}
         >
           {SubMenu(subOption.children)}
         </Collapse>
