@@ -22,11 +22,12 @@ const Form = () => {
     data.set('fName', firstName);
     data.set('lName', lastName);
 
-    fetch('/api/form-submit-url', {
+    const settings = {
       method: 'POST',
-      mode: 'no-cors',
       body: data,
-    })
+    }
+  
+    fetch(`/api/form-submit-url`, settings)
 
     setFirstName('')
     setLastName('')
